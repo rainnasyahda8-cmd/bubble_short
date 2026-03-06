@@ -9,5 +9,15 @@ void input()
     while (true)
     {
         cout << "Masukan panjang array : ";
+        cin >> n;
+
+        if (n <= 20)
+        {
+            break;
+        }
+    else
+    {
+        cout << "Error : maksimal input array adalah 20/n";
+    }
     }
 }
