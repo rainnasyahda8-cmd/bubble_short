@@ -20,4 +20,7 @@ void input()
         cout << "Error : maksimal input array adalah 20/n";
     }
     }
+
+    cout << endl;
+    cout << "masukan elemen array" << endl;
 }
